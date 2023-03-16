@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lesson2_table</title>
+</head>
+<body>
+<h1><center>ОСНОВНЫЕ ТЕГИ HTML</center></h1>
+<table border="2" bgcolor="#efefef">
+	<tr>
+		<th colspan="3">
+			<em>1)СТРУКТУРА Web-страницы</em>
+		</th>
+	</tr>
+	<tr>
+		<td>
+			<strong>&lt;html&gt;&lt;/html&gt;</strong>
+		</td>
+		<td>Начало и конец страницы</td>
+		<td width="150"></td>
+	</tr>
+	<tr>
+		<td>
+			<strong>&lt;head&gt;&lt;/head&gt;</strong>
+		</td>
+		<td>Описание страницы, содержащее различную информацию 
+			<br />не отображаемую в теле документа.
+			<br />Здесь располагается тег имени страницы и теги для
+			<br />поисковых машин.
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>
+			<strong>&lt;title&gt;&lt;/title&gt;</strong>
+		</td>
+		<td>Имя страницы</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>
+			<strong>&lt;body&gt;&lt;/body&gt;</strong>
+		</td>
+		<td>Определяет видимую часть таблицы</td>
+		<td></td>
+	</tr>
+	<tr>
+		<th colspan="2">
+			<em>2)АТРИБУТЫ ТЕЛА ДОКУМЕНТА</em>
+		</th>
+		<th><i>Значение 
+			<br />атрибутов</i></th>
+	</tr>
+	<tr>
+		<td>&lt;body <i>background</i>="URL"&gt;</td>
+		<td>Фоновое изображение</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>&lt;body <i>bgcolor</i>="#RRGGBB"&gt;</td>
+		<td>Цвет фона документа, используя значение цвета 
+			<br />в виде RRGGBB - пример: FF0000 - красный цвет.</td>
+		<td rowspan="5">red,
+			<br />blue,
+			<br />#FF0000 и др.</td>
+	</tr>
+	<tr>
+		<td>&lt;body <i>text</i>="#RRGGBB"&gt;</td>
+		<td>Цвет текста документа, используя значение цвета в
+			<br />виде RRGGBB - пример: 000000 - черный цвет.</td>
+	</tr>
+	<tr>
+		<td>&lt;body <i>link</i>="#RRGGBB"&gt;</td>
+		<td>Устанавливает цвета гиперссылок,используя значение цвета <br />в виде RRGGBB - пример: 00FF00 - зеленый цвет</td>
+	</tr>
+	<tr>
+		<td>&lt;body <i>vlink</i>="#RRGGBB"&gt;</td>
+		<td>Устанавливает цвет гиперссылок на которых вы уже 
+			<br />побывали, используя значение цвета RRGGBB - пример: 333333 - серый цвет.</td>
+	</tr>
+	<tr>
+		<td>&lt;body <i>alink</i>="#RRGGBB"&gt;</td>
+		<td>Устанавливает цвет гиперссылок при нажатии.</td>
+	</tr>
+	<tr>
+		<td colspan="2"></td>
+		<td></td>
+	<tr>
+		<th colspan="2">
+			<em>3)ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ТЕКСТА</em>
+		</th>
+		<th><i>Значение 
+			<br />атрибутов</i>
+		</th>
+	</tr>
+	<tr>
+		<td>&lt;h?&gt;&lt;/h?&gt;</td>
+		<td>Создает заголовок (уровни от 1 до 6)</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>&lt;h? <i>align="*"&gt;</i>&lt;/h?&gt;</td>
+		<td>Заголовок с выравниваем</td>
+		<td>left,right
+			<br /> center</td>
+	</tr>
+	<tr>
+		<td>&lt;p&gt;&lt;/p&gt;</td>
+		<td>Создает новый параграф</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>&lt;p <i>align</i>="*"&gt;&lt;/p&gt;</td>
+		<td>Выравнивает параграф относительно одной из сторон 
+			<br />документа</td>
+		<td>left,right
+			<br />center,
+			<br />justify</td>
+	</tr>
+	<tr>
+		<td>&lt;br&gt;</td>
+		<td>Вставляет перевод строки</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>&lt;center&gt;&lt;/center&gt;</td>
+		<td>Выравнивание по центру</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>&lt;div <i>align</i>="*"&gt;</td>
+		<td>Форматирование больших блоков текста страницы 
+			<br />также используется в таблицах стилей</td>
+		<td>left,right
+			<br />center,
+			<br />justify</td>
+	</tr>
+	<tr>
+		<td colspan="2"></td>
+		<td></td>
+	</tr>
+	<tr>
+		<th colspan="2">4) ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ШРИФТА</th>
+		<th><i>Значение 
+			<br />атрибутов</i></th>
+	</tr>
+	<tr>
+			<td>&lt;b&gt;&lt;/b&gt;</td>
+			<td><b>Жирный</b></td>
+			<td></td>
+	</tr>
+	<tr>
+			<td>&lt;i&gt;&lt;/i&gt;</td>
+			<td><i>Курсив</i></td>
+			<td></td>
+	</tr>
+	<tr>
+			<td>&lt;u&gt;&lt;/u&gt;</td>
+			<td><u>Подчеркнутый</u></td>
+			<td></td>
+	</tr>
+	<tr>
+			<td>&lt;sup&gt;&lt;/sup&gt;</td>
+			<td>Верхний индекс - пример:a<sup>2</sup></td>
+			<td></td>
+	</tr>
+	<tr>
+			<td>&lt;sub&gt;&lt;/sub&gt;</td>
+			<td>Нижний индекс - пример:a<sub>2</sub></td>
+			<td></td>
+	</tr>
+	<tr>
+		<td>&lt;font<i>size</i>=?&gt;&lt;/font&gt;</td>
+		<td>Размер шрифта в пределах от 1 до 7</td>
+		<td></td>
+	</tr>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
