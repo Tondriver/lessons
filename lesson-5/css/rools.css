@@ -1,0 +1,134 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url("../fonts/Montserrat/static/Montserrat-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url("../fonts/Montserrat/static/Montserrat-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: 500;
+}
+
+a {
+	font-style: normal;
+	text-decoration: none;
+}
+
+.cl-blue {
+	color: #2753A2;
+}
+
+
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.container {
+	width: 1320px;
+	max-width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-header {
+	text-align: center;
+	margin-bottom: 65px;
+}
+.section-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 49px;
+	color: #E31E24;
+	margin-bottom: 20px;
+}
+.section-subtitle {
+	font-size: 26px;
+	line-height: 120%;
+}
+
+.posts {
+	width: calc(100% + 27px);
+}
+.posts .post{
+	display: inline-block;
+	width: calc(33.33% - 28px);
+	background: 	#fff;
+	margin-right: 25px;
+	vertical-align: top;
+	text-align: center;
+	box-shadow: 0px 0px 10px rgba(39, 83, 162, 0.25);
+	border-radius: 10px;
+	padding: 50px 20px 30px;
+}
+
+.post .post-img{
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.post-content .title {
+	font-weight: 500;
+	font-size: 26px;
+line-height: 32px;
+color: #2753A2;
+	margin-bottom: 10px;
+}
+
+.post-content .title a {
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+}
+
+.post-content .desc {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	color: #222222;
+}
+
+
+.post-content .descn1 {
+	font-size: 1.25em;
+}
+.post-content .t1 {
+	font-size: 1,625em;
+}
+
+.post-content .t2 {
+	font-size: 1,625rem;
+}
+
+.post-content .descn2 {
+	font-size: 1.25rem;
+}
+
+.post-content .t3 {
+	font-size: 1,625rem;
+}
+
+.post-content .descn3 {
+	font-size: 20px;
+}
+
